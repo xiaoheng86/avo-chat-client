@@ -1,0 +1,21 @@
+SERVER_URL = "http://127.0.0.1:8080"
+USER_LOGIN_URL = SERVER_URL + "/api/user/login"
+USER_REGISTER_URL = SERVER_URL + "/api/user/register"
+USER_LOGOUT_URL = SERVER_URL + "/api/user/logout"
+USER_INFO_URL = SERVER_URL + "/api/user/info"
+USER_CONTACT_URL = SERVER_URL + "/api/user/contact"
+USER_LOG_OUT_URL = SERVER_URL + "/api/user/logout"
+GROUP_CREATE_URL = SERVER_URL + "/group/create"
+GROUP_INFO_URL = SERVER_URL + "/group/info"
+GROUP_JOIN_URL = SERVER_URL + "/group/join"
+IS_GROUP_URL = SERVER_URL + "/group/isGroup"
+P2P_MESSAGE_URL = SERVER_URL + "/api/message/p2p"
+P2G_MESSAGE_URL = SERVER_URL + "/api/message/p2g"
+TOKEN_FILE_PATH = "token.txt"
+global TOKEN
+CACHE_FILE_PATH = "cache.txt"
+MAX_WORKER = 3
+T_P2P = 1
+T_P2G = 2
+T_DELETE_CONTACT = 1
+T_ADD_CONTACT = 2

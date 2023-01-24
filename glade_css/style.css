@@ -1,0 +1,28 @@
+.message-box {
+	border-radius: 12px;
+	padding: 8px 12px;
+	margin: 4px;
+	font-size: small;
+}
+
+.message-box:not(.sent) {
+	background-color: mix(@theme_bg_color, @theme_fg_color, 0.1);
+	color: @theme_fg_color;
+	margin-right: 20px;
+}
+
+.message-box.sent {
+	background-color: mix(@theme_bg_color, @theme_selected_bg_color, 0.8);
+	color: @theme_selected_fg_color;
+}
+
+.message-box.sent, .message-box.status {
+	margin-left: 20px;
+}
+
+.flat {
+	background-image: none;
+	background-color: @theme_bg_color;
+	border-bottom-style: none;
+	box-shadow: none;
+}
